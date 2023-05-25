@@ -1,7 +1,15 @@
+<!DOCTYPE html>
 <html>
-<head><title>test</title></head>
-<body> 
-<img align="middle" src="godzilla.gif">
-Dave O'Hallaron
+<head>
+<meta charset="utf-8" />
+<title>Tiny Server</title>
+</head>
+<body>
+<form action="/cgi-bin/adder" method="GET">
+  <p><img align="middle" src="godzila.gif"></p> 
+  <p>first number: <input type="text" name="first"/></p>
+  <p>second number: <input type="text" name="second"/></p>
+  <input type="submit" value="Submit"/>
+</form>
 </body>
 </html>
